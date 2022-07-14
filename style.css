@@ -23,15 +23,21 @@ header{
     flex-shrink: 0;
 }
 
+.icons-header{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
+
+}
+
 /* MAIN */
 
 main{
     background-color: black;
     height: 85vh;
     width: 100%;
-    padding-top: 70px;
-
-    
+    padding-top: 70px;  
 }
 
 img{
@@ -77,23 +83,55 @@ section{
 
 footer{
     height: 10vh;
-    background-color: grey;
-}
-
-.icons-footer{
+    background-color: #222222;
     display: flex;
     justify-content: space-between;
 }
 
-.text-icons{
+.icons-footer-left{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding-left: 20px;
+    border: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
 }
 
-
-
-
-
+.icons-footer-centre{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    color: white;
+}
 i{
     font-size: 30px;
+
+}
+
+#icons-more{
+    transform: rotate(90deg );
+}
+
+#invite{
+    margin-left: 30px;
+}
+p{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+
+#end{
+    color: red;
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #4a4a4a;
+    margin
+
+    
 }
