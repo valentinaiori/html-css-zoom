@@ -16,3 +16,50 @@ body{
 
 
 /* content */
+
+header{
+    height: 70px;
+    background-color: grey;
+    flex-shrink: 0;
+}
+
+main{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;
+}
+
+img{
+    width: 200px;
+    height: 120px;
+    margin-top: 10px;
+    
+    
+}
+
+footer{
+    flex-basis: 70px;
+    background-color: grey;
+}
+
+.icons-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+i{
+    font-size: 30px;
+}
