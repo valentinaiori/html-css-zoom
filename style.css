@@ -17,19 +17,35 @@ body{
 
 /* content */
 
+/* HEADER */
+
 header{
     height: 5vh;
-    background-color: grey;
-    flex-shrink: 0;
+    background-color: black;
 }
 
 .icons-header{
     display: flex;
     justify-content: flex-end;
     padding-right: 10px;
-    
-
 }
+
+header button{
+    padding: 3px 3px;
+    border-radius: 5px;
+    background-color: #666;
+    color: white;
+    margin-left: 0.3rem;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+header button span{
+    margin-left: 0.3rem;
+}
+
+
+
 
 /* MAIN */
 
@@ -62,18 +78,18 @@ section{
 
 .user{
     position: absolute;
-    background-color: transparent;
+    background-color: #666;
     color: white;
-    width: 105px;
-    height: 25px;
+    width: 85px;
+    height: 20px;
     text-align: center;
     bottom: 14px;
     padding-top: 3px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 #icon-user{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
@@ -111,6 +127,9 @@ footer{
     margin-right: 10px;
 }
 
+#stop-video{
+    margin-right: 10px;
+}
 i{
     font-size: 20px;
 
@@ -125,6 +144,11 @@ i{
     margin-left: 10px;
 }
 
+#manage-partecipants{
+    margin-right: 27px;
+}
+
+
 #polling{
     margin-right: 20px;
 }
@@ -133,6 +157,10 @@ i{
     margin-right: 10px;
 }
 
+#square{
+    color: green;
+    margin-right: 15px;
+}
 
 p{
     font-size: 0.8rem;
@@ -142,8 +170,7 @@ p{
 
 #end{
     color: red;
-    border-radius: 20px;
-    height: 30px;
-    margin-top: 20px;
+    border: 0;
     background-color: #4a4a4a;
+    padding: 0px 10px;
 }
