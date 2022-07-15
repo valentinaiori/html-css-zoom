@@ -91,8 +91,7 @@ footer{
 .icons-footer-left{
     display: flex;
     justify-content: center;
-    padding-left: 20px;
-    border: 10px;
+    padding-left: 10px;
     text-align: center;
     margin-top: 20px;
     color: white;
@@ -104,24 +103,40 @@ footer{
     margin-bottom: 70px;
     margin-top: 20px;
     color: white;
+    text-align: center;
+    
 }
+
+#icon-microphone{
+    margin-right: 10px;
+}
+
 i{
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
 #icons-more{
     transform: rotate(90deg );
+    margin-right: 10px;
 }
 
 #invite{
-    margin-left: 30px;
+    margin-left: 10px;
 }
+
+#polling{
+    margin-right: 20px;
+}
+
+#icons-centre{
+    margin-right: 10px;
+}
+
+
 p{
     font-size: 0.8rem;
-    text-align: center;
-    margin-right: 50px;
-    margin-top: 10px;
+    padding-right: 15px;
 }
 
 
@@ -131,7 +146,4 @@ p{
     height: 30px;
     margin-top: 20px;
     background-color: #4a4a4a;
-    margin
-
-    
 }
